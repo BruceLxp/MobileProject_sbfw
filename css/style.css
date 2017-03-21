@@ -1,0 +1,431 @@
+@charset "utf-8";
+
+/*界面头部*/
+	header{
+		width:7.5rem;
+		height:auto;
+		margin: 0 auto;
+	}
+	/*导航栏*/
+	header nav{
+		width: 7.5rem;
+		height: 0.98rem;
+		background-color: #303c44;
+		position: relative;
+	}
+	header nav img:first-child{
+		width:0.58rem;
+		height:0.57rem;
+		position:absolute;
+		left:0.2rem;
+		top:0.2rem;
+	}
+	header nav span{
+		font-size:0.35rem;
+		color:white;
+		position: absolute;
+		top:0.32rem;
+		left: 0.98rem;
+	}
+	header nav img:last-child{
+		width: 0.39rem;
+		height: 0.32rem;
+		position: absolute;
+		top:0.3rem;
+		right:0.48rem;
+	}
+	header .banner{
+		width:100%;
+		height:3.24rem;
+		background: url(../images/banner.jpg) no-repeat center;
+		background-size: 100%;
+	}
+/*界面主体*/
+section{
+	width:7.5rem;
+	height:auto;
+	margin:0 auto;
+	text-align:center;
+	margin-top: 0.3rem;
+}
+/*商标注册*/
+section .regist img{
+	width:1.9rem;
+	height:0.05rem;
+	vertical-align: middle;
+}
+section .regist span{
+	font-size: 0.3rem;
+	margin-left: 0.15rem;
+	margin-right: 0.15rem;
+	vertical-align: middle;
+}
+section .regist .free_search{
+	overflow: hidden;
+	width:5.94rem;
+	margin: 0 auto;
+	margin-top: 0.38rem;
+	margin-bottom:0.2rem;
+}
+section .regist .free_search form #search{
+	width:4.08rem;
+	height:0.66rem;
+	border:0.01rem solid #ccc;
+	border-right: 0;
+	border-top-left-radius: 0.08rem;
+	border-bottom-left-radius: 0.08rem;
+	float:left;
+}
+section .regist .free_search form #search::-webkit-input-placeholder{
+	font-size: 0.2rem;
+}
+section .regist .free_search form button{
+	width:1.84rem;
+	height:0.66rem;
+	background-color: #f13921;
+	color:white;
+	font-size: 0.26rem;
+	font-weight: lighter;
+	border:1px solid #ccc;
+	border-left: 0;
+	border-top-right-radius: 0.08rem;
+	border-bottom-right-radius: 0.08rem;
+	float:left;
+}
+section .regist span:not(:first-child){
+	font-size: 0.24rem;
+}
+section .regist span span{
+	color:#f13921;
+}
+section .regist .free{
+	width:7.1rem;
+	height:3.6rem;
+	margin:0 auto;
+	border:1px solid #ccc;
+	border-radius: 0.15rem;
+	margin-top: 0.5rem;
+	position:relative;
+}
+section .regist .free h3{
+	font-size: 0.3rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.3rem;
+}
+section .regist .free img{
+	width:0.31rem;
+	height:0.31rem;
+	position:absolute;
+	top:0.1rem;
+	right:0.1rem;
+}
+section .regist .free label{
+	font-size: 0.24rem;
+}
+section .regist .free input:not(:last-child){
+	width:5.14rem;
+	height:0.55rem;
+	border:1px solid #ccc;
+	border-radius: 0.1rem;
+}
+section .regist .free input:not(:last-child)::-webkit-input-placeholder{
+	font-size: 0.2rem;
+}
+section .regist .free input:last-child{
+	width:2.64rem;
+	height: 0.54rem;
+	background-color: #f13921;
+	border-radius: 0.08rem;
+	font-size: 0.32rem;
+	color:white;
+	margin-top: 0.35rem;
+}
+/*间隙1*/
+section .interval_one{
+	width:7.5rem;
+	height:0.3rem;
+	background-color: #efefef;
+	margin-top: 0.6rem;
+}
+/*国内商标*/
+section .inside .nav2{
+	overflow: hidden;
+}
+section .inside .nav2 img{
+	width: 0.24rem;
+	height:0.16rem;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 0.44rem;
+}
+section .inside .nav2 span{
+	font-size: 0.3rem;
+	float:left;
+	margin-top: 0.36rem;
+	margin-left: 0.2rem;
+}
+section .inside .inside_logo{
+	width:6.67rem;
+	height:3.46rem;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 0.68rem;
+}
+section .inside .inside_logo img{
+	width:2.05rem;
+	height:1.6rem;
+	margin-right: 0.26rem;
+	margin-bottom: 0.26rem;
+	float:left;
+}
+section .inside .inside_logo img:nth-child(3n+3){
+	margin-right: 0;
+}
+section .inside .inside_logo img:nth-child(n+4){
+	margin-bottom: 0;
+}
+
+/* 弹性盒子 */
+/* section .inside ul{
+	width:6.67rem;
+	margin-top: 50px;
+	height:3.46rem;
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+} */
+/*间隙2*/
+section .interval_two{
+	width:7.5rem;
+	height:0.3rem;
+	background-color: #efefef;
+	margin-top: 0.6rem;
+}
+/*国际商标*/
+section .outside .nav2{
+	overflow: hidden;
+}
+section .outside .nav2 img{
+	width: 0.24rem;
+	height:0.16rem;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 0.44rem;
+}
+section .outside .nav2 span{
+	font-size: 0.3rem;
+	float:left;
+	margin-top: 0.36rem;
+	margin-left: 0.2rem;
+}
+section .outside .outside_logo{
+	width:6.6rem;
+	height:4.34rem;
+	margin:0 auto;
+	overflow: hidden;
+	margin-top: 0.68rem;
+}
+section .outside .outside_logo img{
+	width:3.17rem;
+	height:2.04rem;
+	margin-right: 0.26rem;
+	margin-bottom: 0.26rem;
+	float:left;
+}
+section .outside .outside_logo img:nth-child(even){
+	margin-right: 0;
+}
+section .outside .outside_logo img:nth-child(n+3){
+	margin-bottom: 0;
+}
+/*间隙3*/
+section .interval_three{
+	width:7.5rem;
+	height:0.3rem;
+	background-color: #efefef;
+	margin-top: 0.24rem;
+}
+/*商标服务指南*/
+section .service .nav2{
+	overflow: hidden;
+	margin-bottom: 0.42rem;
+}
+section .service .nav2 img{
+	width: 0.24rem;
+	height:0.16rem;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 0.44rem;
+}
+section .service .nav2 span{
+	font-size: 0.3rem;
+	float:left;
+	margin-top: 0.36rem;
+	margin-left: 0.2rem;
+}
+section .service div ul li{
+	width:7.5rem;
+	height:1.48rem;
+	border:0.01rem solid #ccc;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+	position: relative;
+}
+section .service div ul li:last-child{
+	border:0.01rem solid #ccc;
+	border-left: 0;
+	border-right: 0;
+}
+section .service div ul li img{
+	position: absolute;
+	left:0.48rem;
+	top: 0.36rem;
+}
+section .service div ul li .one{
+	width:0.56rem;
+	height:0.61rem;
+}
+section .service div ul li .two{
+	width:0.59rem;
+	height:0.59rem;
+}
+section .service div ul li .three{
+	width:0.53rem;
+	height:0.53rem;
+}
+section .service div ul li .four{
+	width: 0.54rem;
+	height: 0.43rem;
+}
+section .service div ul li .five{
+	width:0.47rem;
+	height:0.47rem;
+}
+section .service div ul li h4{
+	position: absolute;
+	left:1.36rem;
+	top:0.3rem;
+	font-size: 0.25rem;
+}
+section .service div ul li p{
+	position: absolute;
+	left:1.36rem;
+	top:0.7rem;
+	font-size: 0.2rem;
+}
+section .service div ul li span{
+	position: absolute;
+	top:0.54rem;
+	right:0.78rem;
+	font-size: 0.23rem;
+}
+/*间隙4*/
+section .interval_four{
+	width:7.5rem;
+	height:0.3rem;
+	background-color: #efefef;
+	margin-top: 0.82rem;
+}
+/*商标注册答疑*/
+section .answer .nav2{
+	overflow: hidden;
+	margin-bottom: 0.42rem;
+}
+section .answer .nav2 img{
+	width: 0.24rem;
+	height:0.16rem;
+	float: left;
+	margin-left: 0.23rem;
+	margin-top: 0.44rem;
+}
+section .answer .nav2 span{
+	font-size: 0.3rem;
+	float:left;
+	margin-top: 0.36rem;
+	margin-left: 0.2rem;
+}
+section .answer div ul li{
+	width:7.5rem;
+	height:1.48rem;
+	position: relative;
+}
+section .answer div ul li h4{
+	position:absolute;
+	left:0.45rem;
+	top:0.35rem;
+	font-size: 0.26rem;
+}
+section .answer div ul li h4 span{
+	color:#f13921;
+}
+section .answer div ul li p{
+	position:absolute;
+	top:0.82rem;
+	left:0.45rem;
+	font-size: 0.24rem;
+}
+section .answer div ul li>span{
+	position: absolute;
+	top:0.54rem;
+	right:0.78rem;
+	font-size: 0.23rem;
+}
+/*界面底部*/
+	/*版权所有*/
+	footer .copyright{
+		width:7.5rem;
+		height:0.88rem;
+		background-color: #efefef;
+		text-align: center;
+		margin:0 auto;
+	}
+	footer .copyright a{
+		font-size: 0.18rem;
+		color:#dad7d6;
+		line-height: 0.88rem;
+	}
+	/*底部logo*/
+	footer .footer_logo{
+		width:7.5rem;
+		height:1.74rem;
+		background-color: #303c44;
+		margin:0 auto;
+	}
+	footer .footer_logo li{
+		float: left;
+		margin-right: 2rem;
+		margin-top: 0.4rem;
+	}
+	footer .footer_logo li:first-child{
+		margin-left: 0.72rem;
+	}
+	footer .footer_logo li:last-child{
+		margin-right: 0;
+	}
+	footer .footer_logo li .one{
+		width: 0.52rem;
+		height:0.85rem;
+	}
+	footer .footer_logo li .two{
+		width:0.77rem;
+		height:0.83rem;
+	}
+	footer .footer_logo li .three{
+		width:0.78rem;
+		height: 0.85rem;
+	}
+	/*底部留白1*/
+	footer .footer_one{
+		width:7.5rem;
+		height: 1.52rem;
+		background-color: #efefef;
+		margin:0 auto;
+	}
+	/*底部留白2*/
+	footer .footer_two{
+		width: 7.5rem;
+		height: 1.2rem;
+		background-color: #303c44;
+		margin:0 auto;
+	}
